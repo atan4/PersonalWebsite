@@ -7,6 +7,8 @@ body, html {
     height: 100%;
     margin: 0px;
     overflow-x: hidden; 
+    font-family: 'Droid Sans', sans-serif;
+    background-color: 
 
 /*    font-family: 'Montserrat', sans-serif;*/
 }
@@ -26,8 +28,7 @@ a:visited{
 
 
 #ulnav li:hover{
-/*    color: lightgray;*/
-    color: salmon;
+    color: lightgray;
 }
 
 
@@ -35,23 +36,26 @@ a:visited{
     color: black;
 }
 
-.parallax img{
-    display: block;
-    height: auto;
-    position: fixed;
-    z-index: -1;
-    top: 8%;
-    width: 100%;
-}
 
 @media (max-width: 416px) {
-    .adri{
-        padding-left: 4%;
+.parallax1, .parallax2, .parallax3, .parallax4, .parallax5{
+    z-index: -1;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+}    
+    
+.adri{
+        padding-left: 3%;
+        left: 0;
         text-align: left;
         width: 100%;
         float: left;
         position: relative;
-/*        padding-right: %;*/
+        *padding-right: 3%;
         letter-spacing: 1.2px;
     }
     
@@ -61,8 +65,8 @@ a:visited{
         width: 100%;
         text-align: center;
         background: white;
-        
     }
+    
     .nav {
     padding: 0;
     display: inline-block;
@@ -85,32 +89,26 @@ a:visited{
     padding-right: 10%;
     padding-left: 10%;
     display: inline-block;
-
     }
     
-    #home{
-        background-color: transparent;
-        display: inline-block;
-        color: darkgray;
-        width: 100%;
-    }
-    
-    .parallax {
-    /* The image used10*/
-    z-index: -1;
-/*    background-image: url(./img/film1.jpg);*/
-    background-color: salmon;
-    position: relative;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-    /* Full height */
-    height: 100%;
-    /* Create the parallax scrolling effect */
-    
+    #lunchbreak .parallax1 {
+    background-image: url(./img/DSC_6572.jpg);
 }
+    #photowebsite .parallax2{
+    background-image: url(./img/photowebsite.png);
+    }
+    
+    #pixelplayer .parallax4{
+    background-image: url(./img/pixelguimobile.png);
+    }
+    
+    #fleye .parallax3{
+    background-image: url(./img/fleye.png);
+    }
+    
+    #coordinaid .parallax5{
+    background-image: url(./img/coordinaid.png);
+    }
     
     .caption {
     position: absolute;
@@ -118,14 +116,14 @@ a:visited{
     transform: translateY(-50%);
     left: 10;
     top: 55%;
-    text-align: left;
     color: #000;
 /*    background-color: rgba(0,0,0,.5)*/
 }
 
 .caption span.border {
+    text-align: center;
     color: #fff;
-    font-size: 4.5vh;
+    font-size: 4vh;
 /*    letter-spacing: 10px;*/
 }
     
@@ -133,11 +131,34 @@ a:visited{
 
 @media (max-width: 768px) {
     
-    .adri{
-        padding-left: 5%;
-        display: inline-block;
+.parallax1 {
+    z-index: -1;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55%;  
+    }        
+    
+.parallax2, .parallax3, .parallax4, .parallax5{
+    z-index: -1;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45%;
+}        
+    
+.adri{
+        padding-left: 3%;
+        left: 0;
+        text-align: left;
+        width: 100%;
         float: left;
         position: absolute;
+        *padding-right: 3%;
         letter-spacing: 1.2px;
     }
     
@@ -147,14 +168,14 @@ a:visited{
         width: 100%;
         text-align: center;
         background: white;
-        
     }
+    
     .nav {
     padding: 0;
     display: inline-block;
-    position: relative;
+    position: aboslute;
     float: right;
-    padding-right: 5%;
+    padding-right: 2%;
     }
 
     #ulnav{
@@ -163,14 +184,13 @@ a:visited{
     margin: 0;
     padding: 0;
     list-style:none;
-    display: inline-block;
     letter-spacing: 1.2px;
     vertical-align: middle;
     }
     
     #ulnav li{
-    padding-right: 5%;
-    padding-left: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
     display: inline-block;
     }
     
@@ -181,85 +201,172 @@ a:visited{
         width: 100%;
     }
     
-    .parallax {
-    /* The image used10*/
-    z-index: -1;
-/*    background-image: url(./img/film1.jpg);*/
-    background-color: salmon;
-    position: relative;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-    /* Full height */
-    height: 100%;
-    /* Create the parallax scrolling effect */
-    
+    #lunchbreak .parallax1 {
+    background-image: url(./img/DSC_6572.jpg);
 }
+    #photowebsite .parallax2{
+    background-image: url(./img/photowebsite.png);
+    }
     
-    .caption {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 10;
-    top: 55%;
-    text-align: left;
-    color: #000;
-/*    background-color: rgba(0,0,0,.5)*/
-}
+    #fleye .parallax3{
+    background-image: url(./img/fleye.png)
+    }
+    
+    #pixelplayer .parallax4{
+    background-image: url(./img/pixelguimobile.png);
+    }
+    
+    #coordinaid .parallax5{
+    background-image: url(./img/coordinaid.png);
+    }
 
-.caption span.border {
-    color: #fff;
-    font-size: 4.5vh;
-/*    letter-spacing: 10px;*/
-}
+    .caption1 {
+      position: absolute;
+      top: 60%;
+      transform: translateY(-50%);
+      width: 100%;
+      text-align: center;
+      color: white;
+    /*  background-color: rgba(0,0,0,.2)*/
+    }    
+
+    .caption {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 100%;
+      text-align: center;
+      color: #000;
+    }
+
+    .caption span.border, .caption1 span.border {
+      background-color: #111;
+      color: #fff;
+      font-size: 15px;
+      letter-spacing: 10px;
+    }
 }
     
 @media (min-width: 769px) {  
-    
-.parallax {
-    /* The image used10*/
+
+.parallax1 {
     z-index: -1;
-/*    background-image: url(./img/film1.jpg);*/
-    background-color: salmon;
     position: relative;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100%;  
+    }        
     
-    /* Full height */
+.parallax2, .parallax3, .parallax4, .parallax5{
+    z-index: -1;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100%;
+}        
     
-    /* Create the parallax scrolling effect */
-    
-}
+.adri{
+        padding-left: 3%;
+        left: 0;
+        text-align: left;
+        width: 100%;
+        float: left;
+        position: absolute;
+        *padding-right: 3%;
+        letter-spacing: 1.2px;
+    }
     
     #navbar{
         position: fixed;
+        height: 10%;
         width: 100%;
         text-align: center;
-        background: black;
-        display: none;
+        background: white;
     }
     
-    .caption {
-    position: absolute;
-    left: 0;
-    top: 90%;
-    transform: translateY(-90%);
+    .nav {
+    padding: 0;
+    display: inline-block;
+    position: aboslute;
+    float: right;
+    padding-right: 2%;
+    }
+
+    #ulnav{
     width: 100%;
-    text-align: center;
-    color: #000;
-    background-color: rgba(0,0,0,.3)
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    letter-spacing: 1.2px;
+    vertical-align: middle;
+    }
+    
+    #ulnav li{
+    padding-right: 10%;
+    padding-left: 10%;
+    display: inline-block;
+    }
+    
+    #home{
+        background-color: transparent;
+        display: inline-block;
+        color: darkgray;
+        width: 100%;
+    }
+    
+    #lunchbreak .parallax1 {
+    background-image: url(./img/DSC_6572.jpg);
+}
+    #photowebsite .parallax2{
+    background-image: url(./img/photowebsite.png);
+    }
+    
+    #fleye .parallax3{
+    background-image: url(./img/fleye.png)
+    }
+    
+    #pixelplayer .parallax4{
+    background-image: url(./img/pixelguimobile.png);
+    }
+    
+    #coordinaid .parallax5{
+    background-image: url(./img/coordinaid.png);
+    }
+
+    .caption1 {
+      position: absolute;
+      top: 60%;
+      transform: translateY(-50%);
+      width: 100%;
+      text-align: center;
+      color: white;
+    /*  background-color: rgba(0,0,0,.2)*/
+    }    
+
+    .caption {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 100%;
+      text-align: center;
+      color: #000;
+    }
+
+    .caption span.border, .caption1 span.border {
+      background-color: #111;
+      color: #fff;
+      font-size: 15px;
+      letter-spacing: 10px;
+    }
 }
 
-    .caption span.border {
-    color: #fff;
-    font-size: 25px;
-    letter-spacing: 10px;
-}
-    
+
 }
 
