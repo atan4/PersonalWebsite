@@ -9,7 +9,6 @@ body, html {
     overflow-x: hidden; 
     font-family: 'Droid Sans', sans-serif;
 
-/*    font-family: 'Montserrat', sans-serif;*/
 }
 
 #resume{
@@ -103,7 +102,7 @@ a:hover{
     margin: 0;
     padding: 0;
     list-style:none;
-    letter-spacing: 1.2px;
+    letter-spacing: 1px;
     vertical-align: middle;
         background-color: white;
     }
@@ -160,7 +159,8 @@ a:hover{
       position: absolute;
       left: 5%;;
       top: 60%;
-      transform: translateY(-60%);
+      -webkit-transform: translateY(-60%);
+              transform: translateY(-60%);
       width: 60%;
       color: white;
       padding-top:5%;
@@ -173,7 +173,7 @@ a:hover{
       background-color: #111;
       color: #fff;
       font-size: 25px;
-      letter-spacing: 5px;
+      letter-spacing: 3px;
       text-align: left;
     }
     
@@ -240,7 +240,7 @@ a:hover{
         float: left;
         position: absolute;
         padding-right: 2%;
-        letter-spacing: 1.2px;
+        letter-spacing: 1px;
     }
     
     #navbar{
@@ -303,22 +303,36 @@ a:hover{
       background-color: rgba(0,0,0,.2)
     }    
 
-    .caption {
-      position: absolute;
-      top: 80%;
-      transform: translateY(-80%);
-      width: 100%;
-      color: #000;
-    }
-
-    .caption span.border, .caption1 span.border {
-        
+    .caption1 span.border{
       background-color: #111;
       color: #fff;
       font-size: 20px;
-      letter-spacing: 5px;
+      letter-spacing: 3px;
       text-align: center;
     }
+    
+    .caption2 {
+      position: absolute;
+      left: 5%;;
+      top: 60%;
+      -webkit-transform: translateY(-60%);
+              transform: translateY(-60%);
+      width: 60%;
+      color: white;
+      padding-top:5%;
+      padding-bottom: 5%;
+      background-color: rgba(0,0,0,.2)
+    }    
+
+
+    .caption2 span.border {
+      background-color: #111;
+      color: #fff;
+      font-size: 25px;
+      letter-spacing: 5px;
+      text-align: left;
+    }
+    
     
     
 #abouttext{
@@ -362,26 +376,7 @@ a:hover{
     }
     
     
-    .caption2 {
-      position: absolute;
-      left: 5%;;
-      top: 60%;
-      transform: translateY(-60%);
-      width: 60%;
-      color: white;
-      padding-top:5%;
-      padding-bottom: 5%;
-      background-color: rgba(0,0,0,.2)
-    }    
 
-
-    .caption span.border, .caption2 span.border {
-      background-color: #111;
-      color: #fff;
-      font-size: 25px;
-      letter-spacing: 5px;
-      text-align: left;
-    }
     
     #footer ul{
         list-style: none;
@@ -500,18 +495,21 @@ a:hover{
       font-size: 25px;
       letter-spacing: 5px;
       text-align: center;
+      font-weight: lighter;
     }
     
     .caption2 {
       position: absolute;
-      left: 5%;;
+      left: 4%;
+      padding-left: 2%; 
       top: 60%;
-      transform: translateY(-60%);
+      -webkit-transform: translateY(-60%);
+              transform: translateY(-60%);
       width: 60%;
       color: white;
       padding-top:5%;
       padding-bottom: 5%;
-      background-color: rgba(0,0,0,.2)
+      background-color: rgba(0,0,0,.35)
     }    
 
 
@@ -535,7 +533,8 @@ a:hover{
 
     #left, #right{
         top: 50%;
-        transform: translateY(-50%;)
+        -webkit-transform: translateY(-50%;);
+                transform: translateY(-50%;)
     }    
 
 #abouttext h3{
@@ -571,7 +570,3 @@ a:hover{
         padding-right: 3%; 
     }
 }
-
-
-}
-

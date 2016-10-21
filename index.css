@@ -36,100 +36,50 @@ a:visited{
     color: black;
 }
 
-
 @media (max-width: 416px) {
-.parallax1, .parallax2, .parallax3, .parallax4, .parallax5{
-    z-index: -1;
-    position: relative;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 50%;
-}    
-    
-.adri{
-        padding-left: 3%;
-        left: 0;
-        text-align: left;
-        width: 100%;
-        float: left;
-        position: relative;
-        *padding-right: 3%;
-        letter-spacing: 1.2px;
-    }
-    
-    #navbar{
-        position: fixed;
-        height: 10%;
-        width: 100%;
-        text-align: center;
-        background: white;
-    }
-    
-    .nav {
-    padding: 0;
+
+#button1{
+    background-color: #FF3300;
+/*    color: #292e17;*/
     display: inline-block;
-    position: relative;
-    float: right;
-    padding-right: 2%;
-    }
-
-    #ulnav{
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    list-style:none;
-    letter-spacing: 1.2px;
-    vertical-align: middle;
+    padding: 5%;
+    font-weight: 600;
+    letter-spacing: 2;
     }
     
-    #ulnav li{
-    padding-right: 10%;
-    padding-left: 10%;
+
+#button2{
+    background-color: #4e5534;
     display: inline-block;
-    }
-    
-    #lunchbreak .parallax1 {
-    background-image: url(./img/DSC_6572.jpg);
-}
-    #photowebsite .parallax2{
-    background-image: url(./img/photowebsite.png);
-    }
-    
-    #pixelplayer .parallax4{
-    background-image: url(./img/pixelguimobile.png);
-    }
-    
-    #fleye .parallax3{
-    background-image: url(./img/fleye.png);
-    }
-    
-    #coordinaid .parallax5{
-    background-image: url(./img/coordinaid.png);
-    }
-    
-    .caption {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 10;
-    top: 55%;
-    color: #000;
-/*    background-color: rgba(0,0,0,.5)*/
+    padding: 5%;
+    font-weight: 600;
+    letter-spacing: 2;
 }
 
-.caption span.border {
-    text-align: center;
-    color: #fff;
-    font-size: 4vh;
-/*    letter-spacing: 10px;*/
-}
-    
+#button3{
+    background-color: gray;
+    display: inline-block;
+    padding: 5%;
+    font-weight: 600;
+    letter-spacing: 2;
 }
 
-@media (max-width: 768px) {
+#button4{
+    background-color: #81b1e1;
+    display: inline-block;
+    padding: 5%;
+    font-weight: 600;
+    letter-spacing: 2;
+}
+
+#button5{
+    background-color: dimgray;
+    display: inline-block;
+    padding: 5%;
+    font-weight: 600;
+    letter-spacing: 2;
+}
+    
     
 .parallax1 {
     z-index: -1;
@@ -152,37 +102,39 @@ a:visited{
 }        
     
 .adri{
+        font-size: 4.5vw;
+        display: inline-block;
         padding-left: 3%;
         left: 0;
         text-align: left;
         width: 100%;
         float: left;
         position: absolute;
-        *padding-right: 3%;
+        padding-right: 3%;
         letter-spacing: 1.2px;
     }
     
     #navbar{
         position: fixed;
-        height: 10%;
         width: 100%;
         text-align: center;
         background: white;
     }
     
     .nav {
+    font-size: 4.5vw;
     padding: 0;
     display: inline-block;
-    position: aboslute;
+    position: relative;
     float: right;
     padding-right: 2%;
     }
 
     #ulnav{
-    width: 100%;
-    height: 100%;
     margin: 0;
     padding: 0;
+    width: 100%;
+    height: 100%;
     list-style:none;
     letter-spacing: 1.2px;
     vertical-align: middle;
@@ -205,7 +157,7 @@ a:visited{
     background-image: url(./img/DSC_6572.jpg);
 }
     #photowebsite .parallax2{
-    background-image: url(./img/photowebsite.png);
+    background-image: url(./img/photoport.jpg);
     }
     
     #fleye .parallax3{
@@ -213,11 +165,200 @@ a:visited{
     }
     
     #pixelplayer .parallax4{
-    background-image: url(./img/pixelguimobile.png);
+    background-image: url(./img/pixelplayer.jpg);
     }
     
     #coordinaid .parallax5{
-    background-image: url(./img/coordinaid.png);
+    background-image: url(./img/coordinatetitle.jpg);
+    }
+
+    .caption1 {
+      position: absolute;
+      top: 60%;
+      transform: translateY(-50%);
+      width: 100%;
+      text-align: center;
+      color: white;
+    /*  background-color: rgba(0,0,0,.2)*/
+    }    
+
+    .caption {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 100%;
+      text-align: center;
+      color: #000;
+    }
+
+    .caption span.border, .caption1 span.border {
+      width: 80%;
+      background-color: #111;
+      color: #fff;
+      font-size: 3.5vmin;
+      letter-spacing:3px;
+    }
+
+    #footer ul{
+    padding: 0;
+    
+    list-style: none;
+    text-align: center;
+    }
+
+    #socialicons li{
+    font-size: 4.5vw;
+    display: inline-block;
+    padding: 1%; 
+    }
+
+}
+
+@media (min-width: 417px) and (max-width: 768px) {
+    
+#button1{
+    background-color: #FF3300;
+/*    color: #292e17;*/
+    display: inline-block;
+    padding: 1.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-weight: 600;
+    letter-spacing: 2;
+    }
+    
+
+#button2{
+    background-color: #4e5534;
+    display: inline-block;
+    padding: 1.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-weight: 600;
+    letter-spacing: 2;
+}
+
+#button3{
+    background-color: gray;
+    display: inline-block;
+    padding: 1.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-weight: 600;
+    letter-spacing: 2;
+}
+
+#button4{
+    background-color: #81b1e1;
+    display: inline-block;
+    padding: 1.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-weight: 600;
+    letter-spacing: 2;
+}
+
+#button5{
+    background-color: dimgray;
+    display: inline-block;
+    padding: 1.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-weight: 600;
+    letter-spacing: 2;
+}
+    
+    
+.parallax1 {
+    z-index: -1;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55%;  
+    }        
+    
+.parallax2, .parallax3, .parallax4, .parallax5{
+    z-index: -1;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45%;
+}        
+    
+.adri{
+        font-size: 3vw;
+        display: inline-block;
+        padding-left: 3%;
+        left: 0;
+        text-align: left;
+        width: 100%;
+        float: left;
+        position: absolute;
+        padding-right: 3%;
+        letter-spacing: 1.2px;
+    }
+    
+    #navbar{
+        position: fixed;
+        width: 100%;
+        text-align: center;
+        background: white;
+    }
+    
+    .nav {
+    font-size: 3vw;
+    padding: 0;
+    display: inline-block;
+    position: relative;
+    float: right;
+    padding-right: 2%;
+    }
+
+    #ulnav{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    list-style:none;
+    letter-spacing: 1.2px;
+    vertical-align: middle;
+    }
+    
+    #ulnav li{
+    padding-right: 10%;
+    padding-left: 10%;
+    display: inline-block;
+    }
+    
+    #home{
+        background-color: transparent;
+        display: inline-block;
+        color: darkgray;
+        width: 100%;
+    }
+    
+    #lunchbreak .parallax1 {
+    background-image: url(./img/DSC_6572.jpg);
+}
+    #photowebsite .parallax2{
+    background-image: url(./img/photoport.jpg);
+    }
+    
+    #fleye .parallax3{
+    background-image: url(./img/fleye.png)
+    }
+    
+    #pixelplayer .parallax4{
+    background-image: url(./img/pixelplayer.jpg);
+    }
+    
+    #coordinaid .parallax5{
+    background-image: url(./img/coordinatetitle.jpg);
     }
 
     .caption1 {
@@ -243,13 +384,81 @@ a:visited{
     .caption span.border, .caption1 span.border {
       background-color: #111;
       color: #fff;
-      font-size: 15px;
-      letter-spacing: 10px;
+      font-size: 2.5vmin;
+      letter-spacing:3px;
     }
+
+    #footer ul{
+    padding: 0;
+    
+    list-style: none;
+    text-align: center;
+    }
+
+    #socialicons li{
+    font-size: 3vw; 
+    display: inline-block;
+    padding-left: 1%;
+    padding-right: 1%;   
+    }
+    
 }
     
 @media (min-width: 769px) {  
 
+#button1{
+    background-color: #FF3300;
+/*    color: #292e17;*/
+    display: inline-block;
+    padding: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-weight: 600;
+    letter-spacing: 2;
+}
+     
+
+#button2{
+    background-color: #4e5534;
+    display: inline-block;
+    padding: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-weight: 600;
+    letter-spacing: 2;
+}
+
+#button3{
+    background-color: gray;
+    display: inline-block;
+    padding: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-weight: 600;
+    letter-spacing: 2;
+}
+
+#button4{
+    background-color: #81b1e1;
+    display: inline-block;
+    padding: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-weight: 600;
+    letter-spacing: 2;
+}
+
+#button5{
+    background-color: dimgray;
+    display: inline-block;
+    padding: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-weight: 600;
+    letter-spacing: 2;
+}
+
+    
 .parallax1 {
     z-index: -1;
     position: relative;
@@ -324,19 +533,19 @@ a:visited{
     background-image: url(./img/DSC_6572.jpg);
 }
     #photowebsite .parallax2{
-    background-image: url(./img/photowebsite.png);
+    background-image: url(./img/photoport.jpg);
     }
     
     #fleye .parallax3{
-    background-image: url(./img/fleye.png)
+    background-image: url(./img/fleye.png);
     }
     
     #pixelplayer .parallax4{
-    background-image: url(./img/pixelguimobile.png);
+    background-image: url(./img/pixelplayer.jpg);
     }
     
     #coordinaid .parallax5{
-    background-image: url(./img/coordinaid.png);
+    background-image: url(./img/coordinatetitle.jpg);
     }
 
     .caption1 {
@@ -364,6 +573,17 @@ a:visited{
       color: #fff;
       font-size: 15px;
       letter-spacing: 10px;
+    }
+    
+    #footer ul{
+    list-style: none;
+    text-align: center;
+    }
+
+    #socialicons li{
+    display: inline-block;
+    padding-left: 3%;
+    padding-right: 3%; 
     }
 }
 
