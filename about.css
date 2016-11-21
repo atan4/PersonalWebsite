@@ -67,50 +67,42 @@ a:hover{
 }        
     
 .adri{
+        font-size: 4.5vw;
+        display: inline-block;
         padding-left: 3%;
         left: 0;
         text-align: left;
         width: 100%;
         float: left;
         position: absolute;
-        padding-right: 4%;
+        padding-right: 3%;
         letter-spacing: 1.2px;
-        font-weight: bolder;
     }
-    
+
     #navbar{
         position: fixed;
-        height: 10%;
         width: 100%;
         text-align: center;
-        background-color: white;
-        z-index: 5;
+        background: white;
     }
     
     .nav {
+    font-size: 4.5vw;
     padding: 0;
     display: inline-block;
-    position: aboslute;
+    position: relative;
     float: right;
-    padding-right: 1%;
-    background-color: white;
+    padding-right: 2%;
     }
 
     #ulnav{
-    width: 100%;
-    height: 100%;
     margin: 0;
     padding: 0;
+    width: 100%;
+    height: 100%;
     list-style:none;
-    letter-spacing: 1px;
+    letter-spacing: 1.2px;
     vertical-align: middle;
-        background-color: white;
-    }
-    
-    #ulnav li{
-    padding-right: 5%;
-    padding-left: 5%;
-    display: inline-block;
     }
     
     #home{
@@ -150,14 +142,15 @@ a:hover{
       left: 10px;
       background-color: #111;
       color: #fff;
-      font-size: 20px;
+      font-size: 5vw;
       letter-spacing: 3px;
       text-align: left;
     }    
     
     .caption2 {
       position: absolute;
-      left: 5%;;
+      padding-left: 4%;
+      left: 5%;
       top: 60%;
       -webkit-transform: translateY(-60%);
               transform: translateY(-60%);
@@ -172,7 +165,7 @@ a:hover{
     .caption span.border, .caption2 span.border {
       background-color: #111;
       color: #fff;
-      font-size: 25px;
+      font-size: 5vw;
       letter-spacing: 3px;
       text-align: left;
     }
@@ -196,16 +189,17 @@ a:hover{
     color: #777;
 }    
     
+
 #footer ul{
-        list-style: none;
-        text-align: center;
- }
+padding: 0;
+list-style: none;
+text-align: center;
+}
 
 #socialicons li{
-        display: inline-block;
-        padding-bottom: 1%;
-        padding-left: 3%;
-        padding-right: 3%; 
+font-size: 4.5vw;
+display: inline-block;
+padding: 1%; 
 }
     
 }
@@ -243,40 +237,31 @@ a:hover{
         letter-spacing: 1px;
     }
     
+    
     #navbar{
-        z-index: 9;
         position: fixed;
-        height: 10%;
         width: 100%;
         text-align: center;
-        background-color: white;
+        background: white;
     }
     
     .nav {
+    font-size: 2.7vw;
     padding: 0;
     display: inline-block;
-    position: aboslute;
+    position: relative;
     float: right;
     padding-right: 2%;
-    background-color: white;
     }
 
     #ulnav{
-    width: 100%;
-    height: 100%;
     margin: 0;
     padding: 0;
+    width: 100%;
+    height: 100%;
     list-style:none;
     letter-spacing: 1.2px;
     vertical-align: middle;
-    background-color: white;
-    }
-    
-    #ulnav li{
-    padding-right: 5%;
-    padding-left: 5%;
-    display: inline-block;
-    background-color: white;
     }
     
     #home{
@@ -297,6 +282,7 @@ a:hover{
     .caption1 {
       position: absolute;
       bottom: 0;
+      padding-bottom: 4%;
       width: 100%;
       text-align: left;
       color: white;
@@ -306,7 +292,7 @@ a:hover{
     .caption1 span.border{
       background-color: #111;
       color: #fff;
-      font-size: 20px;
+      font-size: 3vw;
       letter-spacing: 3px;
       text-align: center;
     }
@@ -328,7 +314,7 @@ a:hover{
     .caption2 span.border {
       background-color: #111;
       color: #fff;
-      font-size: 25px;
+      font-size: 4vw;
       letter-spacing: 5px;
       text-align: left;
     }
@@ -375,18 +361,17 @@ a:hover{
         float: left; 
     }
     
-    
-
-    
     #footer ul{
-        list-style: none;
-        text-align: center;
+    padding: 0;
+    list-style: none;
+    text-align: center;
     }
 
     #socialicons li{
-        display: inline-block;
-        padding-left: 3%;
-        padding-right: 3%;   
+    font-size: 3vw; 
+    display: inline-block;
+    padding-left: 1%;
+    padding-right: 1%;   
     }
     
 }
@@ -414,8 +399,8 @@ a:hover{
     height: 100%;
 }        
     
+    
 .adri{
-
         padding-left: 3%;
         left: 0;
         text-align: left;
@@ -427,40 +412,29 @@ a:hover{
     }
     
     #navbar{
-/*        overflow-x: hidden;*/
-        z-index: 9;
         position: fixed;
         height: 10%;
         width: 100%;
         text-align: center;
-        background-color: white;
+        background: white;
     }
     
     .nav {
-    padding: 0;
-    display: inline-block;
-    position: aboslute;
+    padding-top: 0;
+    padding-bottom: 0;
+    position: relative;
     float: right;
     padding-right: 2%;
-    background-color:white;
     }
+
 
     #ulnav{
     width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
-    list-style:none;
     letter-spacing: 1.2px;
     vertical-align: middle;
-        background-color:white;
-    }
-    
-    #ulnav li{
-    padding-right: 10%;
-    padding-left: 10%;
-    display: inline-block;
-    background-color:white;
     }
     
     #home{
@@ -488,11 +462,10 @@ a:hover{
       background-color: rgba(0,0,0,.2)
     }    
 
-
-    .caption span.border, .caption1 span.border {
+    .caption1 span.border {
       background-color: #111;
       color: #fff;
-      font-size: 25px;
+      font-size: 2vw;
       letter-spacing: 5px;
       text-align: center;
       font-weight: lighter;
@@ -512,11 +485,10 @@ a:hover{
       background-color: rgba(0,0,0,.35)
     }    
 
-
     .caption span.border, .caption2 span.border {
       background-color: #111;
       color: #fff;
-      font-size: 25px;
+      font-size: 3vw;
       letter-spacing: 5px;
       text-align: left;
     }
@@ -547,7 +519,6 @@ a:hover{
         float: left;
         position: relative;
         display: inline-block;
-
     }
     
     #right{
@@ -557,16 +528,15 @@ a:hover{
         display: inline-block;
         float: left; 
     }
-
     
     #footer ul{
-        list-style: none;
-        text-align: center;
+    list-style: none;
+    text-align: center;
     }
 
     #socialicons li{
-        display: inline-block;
-        padding-left: 3%;
-        padding-right: 3%; 
+    display: inline-block;
+    padding-left: 3%;
+    padding-right: 3%; 
     }
 }

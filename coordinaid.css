@@ -91,8 +91,8 @@ a:visited{
         width: 100%;
     }
     
-    #lunchbreak .parallax1 {
-    background-image: url(./img/DSC_6572.jpg);
+    #coordinaid .parallax1 {
+    background-image: url(img/coordinatetitle.jpg);
 }
 
     .caption1 {
@@ -176,6 +176,7 @@ a:visited{
         display: inline-block;
         width: 65%;
         padding-bottom: 1%;
+        line-height: 1.5;
     }
     
     #prototype{
@@ -215,11 +216,11 @@ a:visited{
     
     #summary h2{
         width: 50%;
-        color: #ff3300;
+        color: #81b1e1;
     }
     
     #description h1{
-        color: #ff3300;
+        color: #81b1e1;
     }
     
     #sketch1, #sketch2{
@@ -230,7 +231,7 @@ a:visited{
         display: inline-block;
     }
     
-    #iconprototype{
+    .iconprototype{
         width: 100%;
         display: inline-block;
         padding-bottom: 5%;
@@ -302,8 +303,8 @@ a:visited{
         width: 100%;
     }
     
-    #lunchbreak .parallax1 {
-    background-image: url(./img/DSC_6572.jpg);
+    #coordinaid .parallax1 {
+    background-image: url(img/coordinatetitle.jpg);
 }
 
     .caption1 {
@@ -392,6 +393,7 @@ a:visited{
         display: inline-block;
         width: 65%;
         padding-bottom: 1%;
+                line-height: 1.5;
     }
     
     #prototype{
@@ -424,30 +426,30 @@ a:visited{
         
     }
     #details{
-        width: 100%:
+        width: 100%;
         line-height: 1.5;
         padding-bottom: 2%;
     }
     
     #summary h2{
         width: 50%;
-        color: #ff3300;
+        color: #81b1e1;
     }
     
     #description h1{
-        color: #ff3300;
+        color: #81b1e1;
     }
     
     #sketch1, #sketch2{
         margin: 0;
         padding-top: 4%;
-        width: 40%;
+        width: 80%;
         text-align: center;
         display: inline-block;
     }
     
-    #iconprototype{
-        width: 50%;
+    .iconprototype{
+        width: 80%;
         display: inline-block;
         padding-bottom: 5%;
     }
@@ -511,8 +513,8 @@ a:visited{
     vertical-align: middle;
     }
     
-    #lunchbreak .parallax1 {
-    background-image: url(./img/DSC_6572.jpg);
+    #coordinaid .parallax1 {
+    background-image: url(img/coordinatetitle.jpg);
 }
 
     .caption1 {
@@ -593,6 +595,7 @@ a:visited{
         display: inline-block;
         width: 50%;
         padding-bottom: 1%;
+                line-height: 1.5;
     }
     
     #prototype{
@@ -627,22 +630,22 @@ a:visited{
     #summary h2{
         padding-top: 2%;
         width: 50%;
-        color: #ff3300;
+        color: #81b1e1;
     }
     
     #description h1{
-        color: #ff3300;
+        color: #81b1e1;
     }
     
     #sketch1, #sketch2{
         margin: 0;
         padding-top: 4%;
-        width: 40%;
+        width: 80%;
         text-align: center;
         display: inline-block;
     }
     
-    #iconprototype{
+    .iconprototype{
         width: 50%;
         display: inline-block;
         padding-bottom: 5%;
@@ -653,4 +656,3 @@ a:visited{
     }
     
 }
-
