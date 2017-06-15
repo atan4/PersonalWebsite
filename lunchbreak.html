@@ -9,6 +9,12 @@
 
     <link href="lunchbreak.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Droid Sans" rel="stylesheet">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.0.0/jquery-migrate.min.js"></script>
+    <script type="text/javascript" src="./jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="./jquery-migrate-1.4.1.js"></script>
+    <script src="./jquery_lazyload-master/jquery.lazyload.js" type="text/javascript"></script>
 </head>
     
 <body>
@@ -54,7 +60,7 @@
     </p>
           
     <div id="img">
-          <img id="prototype" src="./img/mockup.png">
+          <img class="lazy" class="lazy" src="./img/mockup.png" id="prototype">
     </div>
 
     <h2>The Concept:</h2> 
@@ -86,8 +92,8 @@
         <br><br>
 
     <div id="imageprocess">
-          <img id="sketch1" src="./img/lunchbreaksketch1.png">
-          <img id="sketch2" src="./img/lunchbreaksketch2.png">
+          <img class="lazy" id="sketch1" src="img/lunchbreaksketch1.png">
+          <img class="lazy" id="sketch2" src="img/lunchbreaksketch2.png">
     </div>
     <br>
           
@@ -97,7 +103,7 @@
     </p>
           
     <div>
-          <img id="iconprototype" src="./img/processlunchbreak.jpg">
+          <img class="lazy" id="iconprototype" src="img/processlunchbreak.jpg">
     </div>
 
 <!--
@@ -126,4 +132,10 @@
             <a href="http://www.adriannatanphotography.com"><li>photography portfolio</li></a>
         </ul>
     </div>
+
+<!--     <script>
+$(function(){
+    $("img.lazy").lazyload();
+  });
+    </script> -->
 </body>
