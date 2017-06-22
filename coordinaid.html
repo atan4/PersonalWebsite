@@ -25,8 +25,8 @@
         <div class="parallax1">
             <div class="caption1">
                 <span class="border">
-                    <h1>coordinaid</h1>
-                    <h2>design, prototyping</h2><br>  
+                    <h1>Twitter Sentiment Analysis</h1>
+                    <h2>node.js, plotly.js</h2><br>  
                 </span>
             </div>
         </div>
@@ -35,76 +35,61 @@
     
     <div id="text">
       <div id="description">
-          <h1>Coordinaid</h1>
+          <h1>Twitter Sentiment Analysis</h1>
 
           <div id="center">
         <ul id="details">
-              <li>International Development Hackathon at Tufts University</li>
-              <li>Partners: Shane Schikne, Anne Ku, and Lisa Truong </li>
-              <li>Role: design, prototyping</li>
-              <li>Tools: Adobe Photoshop, Adobe Illustrator</li>
+              <li>Personal Webapp for Practice</li>
+              <li>Packages: Socket.io, Twit, Plotly, Languagedetect, Sentiment, Express</li>
           </ul>
       </div>      
-          
 
       <div id="wrap">
       <div id="summary">          
     <h2>The Challenge:</h2>
     <p class="description">
-    At ID Hacks 2016, my team designed an app under 15 hours to better integrate refugee aid organizations into a single system to streamline the processing for aid.<br><br>
+    This summer of 2017, I wanted to improve my skills in node.js as well as the implementations of different API's. In particular, I wanted to try out Socket.io, a javascript framework and real-time engine.<br><br>
     </p>
           
     <div id="img">
-          <img id="prototype" src="./img/coordinaid1.jpg">
+          <img id="prototype" src="./img/introsent.png">
     </div>
 
     <h2>The Concept:</h2> 
      <p class="description">
-    In response to the increasing numbers of Syrian refugees in Lesbos, Greece, we designed a means for refugees to communicate their needs and questions in an unfamiliar country. Coordinaid facilitates efficient, coordinated responses from aid organizations using 2-pronged system (SMS + Website) to reduce miscommunication and optimize for aiding the most refugees between organizations.
+    Opinions are fluid in its capacity to change based on current events, new ideas, and the changing environment. In order to display how people are feeling about a certain topic through Twitter, this app takes in a user-submitted keyword and initiates a live twitter stream on that keyword. As new tweets are posted, each tweet is parsed through a language detector to filter English tweets, since the sentiment analysis API only supports English as of now. Each tweet is scored, with a negative score indicating negative sentiment and a positive score indicating positive sentiment, and averaged into a total score which controls the gauge as a form of data visualization. 
 
-<br><br> 
-    
-    <h2>The Process:</h2> 
-    <p class="description">
-    At the start of the hackathon, we brainstormed the current problems that refugees and refugee organizations run into:
-           
-        <ul class="descriptionbullets">
-            <li>464 aid organizations lead to overcrowding of aid support</li>
-            <li>Inefficiencies in distributing support and resources</li>
-            <li>Issues with distinguishing emergency responses from durable solutions (local integration and resettlement)</li>
-        </ul>
-        <br><br>
+<br><br> <br><br> 
 
-    <div id="imageprocess">
-          <img id="sketch1" src="./img/coordinaidworkflow.png">
-    </div>
-    <br>
-          
-    <h2>The Icon:</h2>
-    <p class="description">
-    The first symbol that comes to mind when thinking about aid is the classically used plus sign. We wanted to think about how aid comes across in many different forms, but Coordinaid is able to package emergency aid and aid for long term adjusments all in its own application. After a few iterations, I settled upon a 3D box with the aid symbol on its side.
-    </p>
-          
-    <div>
-          <img class="iconprototype" src="./img/coordinaidicon.png">
+   <div>
+          <img class="iconprototype" src="./img/pride.png"><br><br> 
+          <img class="iconprototype" src="./img/trump.png">
     </div>
    
-    <h2>The Prototype:</h2>
+    
+    <h2>Difficulties:</h2>
           <p class="description">
-          Due to my team running short on time, we briefly drafted a basic prototype for what Coordinaid's website application would look like and how it would operate. Once an account is created, refugee organizations can answer SMS texts sent in by refugees through a basic response or emergency aid depending on the situation. To streamline aid, organizations would also be able to search keywords to allow for more efficient distribution of resources.
+          It remains difficult to decide how data from this sentiment stream should be visualized; Most tweets are fairly neutral, and determining the minimum and maximum range of the gauge was dependent on the least and most extreme tweets encountered. By choosing this, the gauge's tick normally ends up towards the middle of the gauge, underutilizing the rest of the gauge's capacity. Working with plotly.js was also difficult in determining how to make the graph responsive to the viewport. 
           </p>
 
-    <div>
-          <img class="iconprototype" src="./img/coordinaidprototype.png">
-          <img class="iconprototype" src="./img/page2.jpg">
-          <img class="iconprototype" src="./img/keyword.jpg">
-    </div>
+<br><br>
+
+<!--    <div>
+          <img class="iconprototype"  src="./img/kalanick.png">
+          <img class="iconprototype" src="./img/comey.png">
+    </div> -->
    
+ 
     <h2>Final Thoughts:</h2>
           <p class="description">
-          If we were to continue this hack, Coordinaid would eventually incorporate machine learning to answer similar questions asked by refugees. In terms of UX design, we would interview refugee organizations to improve functionality.<br>
+          This begins my start of learning to create apps with better practices. More work will be done in cleaning up and hardcode that exists (particularly with modifying the plotly.js graph) as well as implmeneting async functions, and I will be working more with this app in making it fully responsive. Currently, the app works for portrait orientation tablet-sized and lower as well as landscape orientation for laptop screens. <br>
           </p>
-          
+          <br><br>
+
+    <div id="view">
+    <h3 id="viewbutton"><a href="http://twittersentanalysis.herokuapp.com/">View The App</a></h3>      
+
+     <br><br>    
     </div>
           </div>
 
