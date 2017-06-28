@@ -86,6 +86,14 @@ body, html {
 
 @media (max-width: 416px) {
 
+#button5{
+    background-color: #E3B900;
+    display: inline-block;
+    padding: 5%;
+    font-weight: 600;
+    letter-spacing: 2;
+}
+
 #button1{
     background-color: #FF3300;
 /*    color: #292e17;*/
@@ -120,15 +128,6 @@ body, html {
     letter-spacing: 2;
 }
 
-#button5{
-    background-color: dimgray;
-    display: inline-block;
-    padding: 5%;
-    font-weight: 600;
-    letter-spacing: 2;
-}
-    
-    
 .parallax1 {
     z-index: -1;
     position: relative;
@@ -214,6 +213,10 @@ body, html {
     background-image: url(./img/sent.png);
     }
 
+    #bluffs .parallax4{
+    background-image: url(./img/photoscene3.png);
+    }
+
     .caption1 {
       position: absolute;
       top: 60%;
@@ -257,6 +260,16 @@ body, html {
 }
 
 @media (min-width: 417px) and (max-width: 768px) {
+
+#button5{
+    background-color: #E3B900;
+    display: inline-block;
+    padding: 1.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-weight: 600;
+    letter-spacing: 2;
+}
     
 #button1{
     background-color: #FF3300;
@@ -299,17 +312,6 @@ body, html {
     font-weight: 600;
     letter-spacing: 2;
 }
-
-#button5{
-    background-color: dimgray;
-    display: inline-block;
-    padding: 1.5%;
-    padding-left: 3%;
-    padding-right: 3%;
-    font-weight: 600;
-    letter-spacing: 2;
-}
-    
     
 .parallax1 {
     z-index: -1;
@@ -396,6 +398,10 @@ body, html {
     background-image: url(./img/sent.png);
     }
 
+    #bluffs .parallax4{
+    background-image: url(./img/photoscene3.png);
+    }
+
     .caption1 {
       position: absolute;
       top: 60%;
@@ -440,6 +446,17 @@ body, html {
     
 @media (min-width: 769px) {  
 
+#button5{
+    background-color: #E3B900;
+    display: inline-block;
+    position: relative;
+    padding: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-weight: 600;
+    letter-spacing: 2;
+}
+
 #button1{
     background-color: #FF3300;
     display: inline-block;
@@ -481,17 +498,6 @@ body, html {
     font-weight: 600;
     letter-spacing: 2;
 }
-
-#button5{
-    background-color: dimgray;
-    display: inline-block;
-    padding: 1%;
-    padding-left: 3%;
-    padding-right: 3%;
-    font-weight: 600;
-    letter-spacing: 2;
-}
-
     
 .parallax1 {
     z-index: -1;
@@ -584,6 +590,10 @@ body, html {
     
     #coordinaid .parallax5{
     background-image: url(./img/sent.png);
+    }
+
+    #bluffs .parallax4{
+    background-image: url(./img/photoscene3.png);
     }
 
     .caption1 {
