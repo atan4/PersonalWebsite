@@ -10,10 +10,7 @@ body, html {
     bottom: 0;
     margin: 0px;
     overflow: visible; 
-    font-family: 'Droid Sans', sans-serif;
-    background-color: 
-
-/*    font-family: 'Montserrat', sans-serif;*/
+    font-family: 'Droid Sans', "sans-serif";
 }
 
 #ulnav a:link{
