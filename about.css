@@ -1,62 +1,48 @@
-/*
-css for my personal website.
-Author: Adrianna Tan
-Date Updated: 10/10/2016*/
-
-body, html {
-    height: 100%;
-    margin: 0px;
-    overflow: visible; 
-    font-family: 'Droid Sans', sans-serif;
-
+body,
+html {
+  height: 100%;
+  margin: 0px;
+  overflow: visible;
+  font-family: "Droid Sans", sans-serif;
 }
 
-#resume{
-    color: dimgray;
+#resume {
+  color: dimgray;
 }
 
-a:link{
-    text-decoration: none;
-    color: black;
+a:link {
+  text-decoration: none;
+  color: black;
 }
 
-a:visited{
-    color: black;
+a:visited {
+  color: black;
 }
 
-a:hover{
-    color: #777;
+a:hover {
+  color: lightslategray;
 }
 
-#ulnav, #socialicons, #right il:visited{
-    color: black;
+#ulnav,
+#socialicons,
+#right il:visited {
+  color: black;
 }
 
-
-#ulnav, #socialicons, #right li:hover{
-    color: #777;
+#ulnav,
+#socialicons,
+#right li:hover {
+  color: #777;
 }
 
-
-#ulnav, #socialicons, #right h1:hover{
-    color: black;
+#ulnav,
+#socialicons,
+#right h1:hover {
+  color: black;
 }
-
 
 @media (max-width: 449px) {
-    
-
-.parallax1 {
-    z-index: -1;
-    position: relative;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;  
-    }        
-    
-.parallax2, .parallax3, .parallax4, .parallax5{
+  .parallax1 {
     z-index: -1;
     position: relative;
     background-attachment: fixed;
@@ -64,159 +50,157 @@ a:hover{
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-}        
-    
-.adri{
-        font-size: 4.5vw;
-        display: inline-block;
-        padding-left: 3%;
-        left: 0;
-        text-align: left;
-        width: 100%;
-        float: left;
-        position: absolute;
-        padding-right: 3%;
-        letter-spacing: 1.2px;
-    }
+  }
 
-    #navbar{
-        position: fixed;
-        width: 100%;
-        text-align: center;
-        background: white;
-    }
-    
-    .nav {
+  .parallax2,
+  .parallax3,
+  .parallax4,
+  .parallax5 {
+    z-index: -1;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
+
+  .adri {
+    font-size: 4.5vw;
+    display: inline-block;
+    padding-left: 3%;
+    left: 0;
+    text-align: left;
+    width: 100%;
+    float: left;
+    position: absolute;
+    padding-right: 3%;
+    letter-spacing: 1.2px;
+  }
+
+  #navbar {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    background: white;
+  }
+
+  .nav {
     font-size: 4.5vw;
     padding: 0;
     display: inline-block;
     position: relative;
     float: right;
     padding-right: 2%;
-    }
+  }
 
-    #ulnav{
+  #ulnav {
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
-    list-style:none;
+    list-style: none;
     letter-spacing: 1.2px;
     vertical-align: middle;
-    }
-    
-    #home{
-        background-color: transparent;
-        display: inline-block;
-        color: darkgray;
-        width: 100%;
-    }
-    
-    #about .parallax1 {
+  }
+
+  #home {
+    background: transparent;
+    display: inline-block;
+    color: darkgray;
+    width: 100%;
+  }
+
+  #about .parallax1 {
     background-image: url(./img/film1.jpg);
-}
-    #about .parallax2 {
+  }
+  #about .parallax2 {
     background-image: url(./img/film5.jpg);
-    }
+  }
 
+  .caption1 {
+    position: absolute;
+    padding-left: 4%;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    color: white;
+    background: rgba(0, 0, 0, 0.3);
+  }
 
+  .caption {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #000;
+  }
 
-    .caption1 {
-      position: absolute;
-      padding-left: 4%;
-      bottom: 0;
-      width: 100%;
-      text-align: left;
-      color: white;
-      background-color: rgba(0,0,0,.3)
-    }    
+  .caption span.border,
+  .caption1 span.border {
+    left: 10px;
+    background: #111;
+    color: #fff;
+    font-size: 5vw;
+    letter-spacing: 3px;
+    text-align: left;
+  }
 
-    .caption {
-      position: absolute;
-      bottom: 0;
-      width: 100%;
-      color: #000;
-    }
+  .caption2 {
+    position: absolute;
+    padding-left: 4%;
+    left: 5%;
+    top: 60%;
+    -webkit-transform: translateY(-60%);
+    transform: translateY(-60%);
+    width: 60%;
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: rgba(0, 0, 0, 0.2);
+  }
 
-    .caption span.border, .caption1 span.border {
-      left: 10px;
-      background-color: #111;
-      color: #fff;
-      font-size: 5vw;
-      letter-spacing: 3px;
-      text-align: left;
-    }    
-    
-    .caption2 {
-      position: absolute;
-      padding-left: 4%;
-      left: 5%;
-      top: 60%;
-      -webkit-transform: translateY(-60%);
-              transform: translateY(-60%);
-      width: 60%;
-      color: white;
-      padding-top:5%;
-      padding-bottom: 5%;
-      background-color: rgba(0,0,0,.2)
-    }    
+  .caption span.border,
+  .caption2 span.border {
+    background: #111;
+    color: #fff;
+    font-size: 5vw;
+    letter-spacing: 3px;
+    text-align: left;
+  }
 
-
-    .caption span.border, .caption2 span.border {
-      background-color: #111;
-      color: #fff;
-      font-size: 5vw;
-      letter-spacing: 3px;
-      text-align: left;
-    }
-    
-    
-#abouttext{
+  #abouttext {
     color: #777;
-    background-color:white;
-    text-align:center;
-    padding:20px 30px;
+    background: white;
+    text-align: center;
+    padding: 20px 30px;
     text-align: justify;
     padding-bottom: 20%;
-}
+  }
 
-#abouttext h3{
+  #abouttext h3 {
     padding-top: 10%;
-    text-align:center;
-}
+    text-align: center;
+  }
 
-#right a{
+  #right a {
     color: #777;
-}    
-    
+  }
 
-#footer ul{
-padding: 0;
-list-style: none;
-text-align: center;
+  #footer ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+  }
+
+  #socialicons li {
+    font-size: 4.5vw;
+    display: inline-block;
+    padding: 1%;
+  }
 }
 
-#socialicons li{
-font-size: 4.5vw;
-display: inline-block;
-padding: 1%; 
-}
-    
-}
-
-@media (min-width: 450px) and (max-width:767px) {
-    
-.parallax1 {
-    z-index: -1;
-    position: relative;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;  
-    }        
-    
-.parallax2, .parallax3, .parallax4, .parallax5{
+@media (min-width: 450px) and (max-width: 767px) {
+  .parallax1 {
     z-index: -1;
     position: relative;
     background-attachment: fixed;
@@ -224,161 +208,165 @@ padding: 1%;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-}        
-    
-.adri{
-        padding-left: 3%;
-        left: 0;
-        text-align: left;
-        width: 100%;
-        float: left;
-        position: absolute;
-        padding-right: 2%;
-        letter-spacing: 1px;
-    }
-    
-    
-    #navbar{
-        position: fixed;
-        width: 100%;
-        text-align: center;
-        background: white;
-    }
-    
-    .nav {
+  }
+
+  .parallax2,
+  .parallax3,
+  .parallax4,
+  .parallax5 {
+    z-index: -1;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
+
+  .adri {
+    padding-left: 3%;
+    left: 0;
+    text-align: left;
+    width: 100%;
+    float: left;
+    position: absolute;
+    padding-right: 2%;
+    letter-spacing: 1px;
+  }
+
+  #navbar {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    background: white;
+  }
+
+  .nav {
     font-size: 2.7vw;
     padding: 0;
     display: inline-block;
     position: relative;
     float: right;
     padding-right: 2%;
-    }
+  }
 
-    #ulnav{
+  #ulnav {
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
-    list-style:none;
+    list-style: none;
     letter-spacing: 1.2px;
     vertical-align: middle;
-    }
-    
-    #home{
-        background-color: transparent;
-        display: inline-block;
-        color: darkgray;
-        width: 100%;
-    }
-    
-    #about .parallax1 {
+  }
+
+  #home {
+    background: transparent;
+    display: inline-block;
+    color: darkgray;
+    width: 100%;
+  }
+
+  #about .parallax1 {
     background-image: url(./img/film1.jpg);
-}
-    
-    #about .parallax2 {
+  }
+
+  #about .parallax2 {
     background-image: url(./img/film5.jpg);
-    }
+  }
 
-    .caption1 {
-      position: absolute;
-      bottom: 0;
-      padding-bottom: 4%;
-      width: 100%;
-      text-align: left;
-      color: white;
-      background-color: rgba(0,0,0,.2)
-    }    
+  .caption1 {
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 4%;
+    width: 100%;
+    text-align: left;
+    color: white;
+    background: rgba(0, 0, 0, 0.2);
+  }
 
-    .caption1 span.border{
-      background-color: #111;
-      color: #fff;
-      font-size: 3vw;
-      letter-spacing: 3px;
-      text-align: center;
-    }
-    
-    .caption2 {
-      position: absolute;
-      left: 5%;;
-      top: 60%;
-      -webkit-transform: translateY(-60%);
-              transform: translateY(-60%);
-      width: 60%;
-      color: white;
-      padding-top:5%;
-      padding-bottom: 5%;
-      background-color: rgba(0,0,0,.2)
-    }    
+  .caption1 span.border {
+    background: #111;
+    color: #fff;
+    font-size: 3vw;
+    letter-spacing: 3px;
+    text-align: center;
+  }
 
+  .caption2 {
+    position: absolute;
+    left: 5%;
+    top: 60%;
+    -webkit-transform: translateY(-60%);
+    transform: translateY(-60%);
+    width: 60%;
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: rgba(0, 0, 0, 0.2);
+  }
 
-    .caption2 span.border {
-      background-color: #111;
-      color: #fff;
-      font-size: 4vw;
-      letter-spacing: 5px;
-      text-align: left;
-    }
-    
-    
-    
-#abouttext{
+  .caption2 span.border {
+    background: #111;
+    color: #fff;
+    font-size: 4vw;
+    letter-spacing: 5px;
+    text-align: left;
+  }
+
+  #abouttext {
     color: #777;
-    background-color:white;
-    text-align:center;
+    background: white;
+    text-align: center;
     height: 50%;
     margin-top: 7%;
     padding: 5%;
     text-align: justify;
-}
+  }
 
-#abouttext h3{
-    text-align:center;
+  #abouttext h3 {
+    text-align: center;
     font-weight: bolder;
     padding-bottom: 2%;
-}
-    
-    #right a{
-        color: #777;
+  }
 
-    }    
+  #right a {
+    color: #777;
+  }
 
+  #left {
+    /*        font-size: 1em;*/
+    width: 48%;
+    padding-right: 4%;
+    float: left;
+    position: relative;
+    display: inline-block;
+  }
 
-    #left{
-/*        font-size: 1em;*/
-        width: 48%;
-        padding-right: 4%;
-        float: left;
-        position: relative;
-        display: inline-block;
+  #right {
+    text-align: center;
+    width: 48%;
+    position: relative;
+    display: inline-block;
+    float: left;
+  }
 
-    }
-    
-    #right{
-        text-align: center;
-        width: 48%;
-        position: relative;
-        display: inline-block;
-        float: left; 
-    }
-    
-    #footer ul{
+  #footer ul {
     padding: 0;
     list-style: none;
     text-align: center;
-    }
+  }
 
-    #socialicons li{
-    font-size: 3vw; 
+  #socialicons li {
+    font-size: 3vw;
     display: inline-block;
     padding-left: 1%;
-    padding-right: 1%;   
-    }
-    
+    padding-right: 1%;
+  }
 }
-    
-@media (min-width: 768px) {  
 
-.parallax1 {
+@media (min-width: 768px) {
+  .parallax1 {
     z-index: -1;
     position: relative;
     background-attachment: fixed;
@@ -386,10 +374,12 @@ padding: 1%;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
+  }
 
-    }        
-    
-.parallax2, .parallax3, .parallax4, .parallax5{
+  .parallax2,
+  .parallax3,
+  .parallax4,
+  .parallax5 {
     z-index: -1;
     position: relative;
     background-attachment: fixed;
@@ -397,146 +387,145 @@ padding: 1%;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-}        
-    
-    
-.adri{
-        padding-left: 3%;
-        left: 0;
-        text-align: left;
-        width: 100%;
-        float: left;
-        position: absolute;
-        padding-right: 3%;
-        letter-spacing: 1.2px;
-    }
-    
-    #navbar{
-        position: fixed;
-        height: 10%;
-        width: 100%;
-        text-align: center;
-        background: white;
-    }
-    
-    .nav {
+  }
+
+  .adri {
+    padding-left: 3%;
+    left: 0;
+    text-align: left;
+    width: 100%;
+    float: left;
+    position: absolute;
+    padding-right: 3%;
+    letter-spacing: 1.2px;
+  }
+
+  #navbar {
+    position: fixed;
+    height: 10%;
+    width: 100%;
+    text-align: center;
+    background: white;
+  }
+
+  .nav {
     padding-top: 0;
     padding-bottom: 0;
     position: relative;
     float: right;
     padding-right: 2%;
-    }
+  }
 
-
-    #ulnav{
+  #ulnav {
     width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
     letter-spacing: 1.2px;
     vertical-align: middle;
-    }
-    
-    #home{
-        background-color: transparent;
-        display: inline-block;
-        color: darkgray;
-        width: 100%;
-    }
-    
-    #about .parallax1 {
+  }
+
+  #home {
+    background: transparent;
+    display: inline-block;
+    color: darkgray;
+    width: 100%;
+  }
+
+  #about .parallax1 {
     background-image: url(./img/film1.jpg);
-}
-    
-    #about .parallax2 {
+  }
+
+  #about .parallax2 {
     background-image: url(./img/film5.jpg);
-    }
+  }
 
-    .caption1 {
-      position: absolute;
-      left: 0;
-      bottom: 30px;
-        width: 100%;
-      text-align: center;
-      color: white;
-      background-color: rgba(0,0,0,.2)
-    }    
+  .caption1 {
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.2);
+  }
 
-    .caption1 span.border {
-      background-color: #111;
-      color: #fff;
-      font-size: 2vw;
-      letter-spacing: 5px;
-      text-align: center;
-      font-weight: lighter;
-    }
-    
-    .caption2 {
-      position: absolute;
-      left: 4%;
-      padding-left: 2%; 
-      top: 60%;
-      -webkit-transform: translateY(-60%);
-              transform: translateY(-60%);
-      width: 60%;
-      color: white;
-      padding-top:5%;
-      padding-bottom: 5%;
-      background-color: rgba(0,0,0,.35)
-    }    
+  .caption1 span.border {
+    background: #111;
+    color: #fff;
+    font-size: 2vw;
+    letter-spacing: 5px;
+    text-align: center;
+    font-weight: lighter;
+  }
 
-    .caption span.border, .caption2 span.border {
-      background-color: #111;
-      color: #fff;
-      font-size: 3vw;
-      letter-spacing: 5px;
-      text-align: left;
-    }
-    
-    
-#abouttext{
+  .caption2 {
+    position: absolute;
+    left: 4%;
+    padding-left: 2%;
+    top: 60%;
+    -webkit-transform: translateY(-60%);
+    transform: translateY(-60%);
+    width: 60%;
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: rgba(0, 0, 0, 0.35);
+  }
+
+  .caption span.border,
+  .caption2 span.border {
+    background: #111;
+    color: #fff;
+    font-size: 3vw;
+    letter-spacing: 5px;
+    text-align: left;
+  }
+
+  #abouttext {
     color: #777;
-    background-color:white;
-    text-align:center;
+    background: white;
+    text-align: center;
     padding: 10%;
     text-align: justify;
     margin-bottom: 225px;
-}
+  }
 
-    #left, #right{
-        top: 50%;
-        -webkit-transform: translateY(-50%;);
-                transform: translateY(-50%;)
-    }    
+  #left,
+  #right {
+    top: 50%;
+    -webkit-transform: translateY(-50%;);
+    transform: translateY(-50%;);
+  }
 
-#abouttext h3{
-    text-align:center;
-}
-    
-    #left{
-        width: 48%;
-        padding-right: 4%;
-        float: left;
-        position: relative;
-        display: inline-block;
-    }
-    
-    #right{
-        text-align: center;
-        width: 48%;
-        position: relative;
-        display: inline-block;
-        float: left; 
-    }
-    
-    #footer ul{
+  #abouttext h3 {
+    text-align: center;
+  }
+
+  #left {
+    width: 48%;
+    padding-right: 4%;
+    float: left;
+    position: relative;
+    display: inline-block;
+  }
+
+  #right {
+    text-align: center;
+    width: 48%;
+    position: relative;
+    display: inline-block;
+    float: left;
+  }
+
+  #footer ul {
     list-style: none;
     text-align: center;
-    }
+  }
 
-    #socialicons li{
+  #socialicons li {
     display: inline-block;
     padding-left: 3%;
-    padding-right: 3%; 
-    }
+    padding-right: 3%;
+  }
 }

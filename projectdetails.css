@@ -1,0 +1,680 @@
+body,
+html {
+  height: 100%;
+  margin: 0px;
+  overflow-x: hidden;
+  font-family: "Droid Sans", sans-serif;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+#view {
+  text-align: center;
+  color: white;
+  padding: 2%;
+}
+
+.viewbutton a {
+  padding-right: 3%;
+  padding-left: 3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  color: white;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.bluffs .viewbutton a {
+  background: #e3b900;
+}
+
+.photowebsite .viewbutton a {
+  background: #4e5534;
+}
+
+.twittersentiment .viewbutton a {
+  background: #7e8aa2;
+}
+
+.lunchbreak .viewbutton a {
+  background: #ff3300;
+}
+
+#ulnav il:visited {
+  color: black;
+}
+
+#ulnav li:hover {
+  color: lightslategray;
+}
+
+#ulnav h1:hover {
+  color: black;
+}
+
+.bluffs .parallax1 {
+  background-image: url(./img/photoscene3.png);
+}
+
+.bluffs .summary h2,
+.bluffs .description h1 {
+  color: #e3b900;
+}
+
+.twittersentiment .parallax1 {
+  background-image: url(./img/sent.png);
+}
+
+.twittersentiment .summary h2,
+.twittersentiment .description h1 {
+  color: #7e8aa2;
+}
+
+.lunchbreak .parallax1 {
+  background-image: url(./img/DSC_6572.jpg);
+}
+
+.lunchbreak .summary h2,
+.lunchbreak .description h1 {
+  color: #ff3300;
+}
+
+.photowebsite .parallax1 {
+  background-image: url(./img/photoport.jpg);
+}
+
+.photowebsite .summary h2,
+.photowebsite .description h1 {
+  color: #4e5534;
+}
+
+.text {
+  text-align: center;
+}
+
+@media (max-width: 416px) {
+  .parallax1 {
+    z-index: -1;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55%;
+  }
+
+  .adri {
+    font-size: 4.5vw;
+    display: inline-block;
+    padding-left: 3%;
+    left: 0;
+    text-align: left;
+    width: 100%;
+    float: left;
+    position: absolute;
+    padding-right: 3%;
+    letter-spacing: 1.2px;
+  }
+
+  #navbar {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    background: white;
+  }
+
+  .nav {
+    font-size: 4.5vw;
+    padding: 0;
+    display: inline-block;
+    position: relative;
+    float: right;
+    padding-right: 2%;
+  }
+
+  #ulnav {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    letter-spacing: 1.2px;
+    vertical-align: middle;
+  }
+
+  #home {
+    background: transparent;
+    display: inline-block;
+    color: darkgray;
+    width: 100%;
+  }
+
+  .caption1 {
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    color: white;
+  }
+
+  .caption1 span.border {
+    width: 80%;
+    background: #111;
+    color: #fff;
+    font-size: 3.5vmin;
+    letter-spacing: 3px;
+  }
+
+  #footer ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+  }
+
+  #socialicons li {
+    font-size: 4.5vw;
+    display: inline-block;
+    padding: 1%;
+  }
+
+  #video {
+    width: 100%;
+    height: 60%;
+  }
+
+  .wrap {
+    width: 100%;
+    text-align: center;
+  }
+
+  .summary {
+    display: inline-block;
+    text-align: center;
+  }
+
+  #about {
+    width: 80%;
+    position: relative;
+    text-align: left;
+    display: inline-block;
+  }
+
+  #process {
+    display: inline-block;
+    width: 80%;
+    position: relative;
+    text-align: left;
+  }
+
+  .description h1 {
+    padding-top: 5%;
+    display: none;
+    text-align: center;
+  }
+
+  .description {
+    line-height: 1.5;
+    display: inline-block;
+    text-align: left;
+    width: 70%;
+  }
+
+  .descriptionbullets {
+    list-style: circle;
+    text-align: left;
+    display: inline-block;
+    width: 65%;
+    padding-bottom: 1%;
+    line-height: 1.5;
+  }
+
+  .prototype {
+    padding-top: 5%;
+    width: 90%;
+    padding-bottom: 5%;
+  }
+
+  #img {
+    text-align: center;
+  }
+
+  #center {
+    padding-bottom: 5%;
+    padding-top: 8%;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+  }
+
+  #center ul {
+    padding: 0;
+    margin: 0;
+    width: 80%;
+    text-align: left;
+    position: relative;
+    display: inline-block;
+    list-style: none;
+  }
+  #details {
+    width: 100%;
+    line-height: 1.5;
+    padding-bottom: 2%;
+  }
+
+  .summary h2 {
+    width: 50%;
+    text-align: left;
+  }
+
+  .iconprototype {
+    width: 100%;
+    display: inline-block;
+    padding-bottom: 5%;
+  }
+
+  #video {
+    display: none;
+    padding-top: 4%;
+    width: 100%;
+    height: 60%;
+  }
+
+  #sketch1,
+  #sketch2 {
+    margin: 0;
+    padding-top: 4%;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+  }
+}
+
+@media (min-width: 417px) and (max-width: 768px) {
+  .parallax1 {
+    z-index: -1;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55%;
+  }
+
+  .adri {
+    padding-left: 3%;
+    left: 0;
+    text-align: left;
+    width: 100%;
+    float: left;
+    position: absolute;
+    padding-right: 2%;
+    letter-spacing: 1px;
+  }
+
+  #navbar {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    background: white;
+  }
+
+  .nav {
+    font-size: 2.7vw;
+    padding: 0;
+    display: inline-block;
+    position: relative;
+    float: right;
+    padding-right: 2%;
+  }
+
+  #ulnav {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    letter-spacing: 1.2px;
+    vertical-align: middle;
+  }
+
+  #home {
+    background: transparent;
+    display: inline-block;
+    color: darkgray;
+    width: 100%;
+  }
+
+  .caption1 {
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    color: white;
+    /*  background: rgba(0,0,0,.2)*/
+  }
+
+  .caption1 span.border {
+    background: #111;
+    color: #fff;
+    font-size: 2.5vmin;
+    letter-spacing: 3px;
+  }
+
+  #footer ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+  }
+
+  #socialicons li {
+    font-size: 2.5vw;
+    display: inline-block;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+
+  .text {
+    background: white;
+  }
+
+  #video {
+    width: 90%;
+  }
+
+  .wrap {
+    width: 100%;
+    text-align: center;
+  }
+
+  .summary {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    background: white;
+  }
+
+  #about {
+    width: 80%;
+    position: relative;
+    text-align: left;
+    display: inline-block;
+  }
+
+  #process {
+    display: inline-block;
+    width: 80%;
+    position: relative;
+    text-align: left;
+  }
+
+  .description h1 {
+    padding-top: 5%;
+    display: none;
+    text-align: center;
+  }
+
+  .description {
+    line-height: 1.5;
+    display: inline-block;
+    text-align: left;
+    width: 80%;
+  }
+
+  .descriptionbullets {
+    list-style: circle;
+    text-align: left;
+    display: inline-block;
+    width: 65%;
+    padding-bottom: 1%;
+    line-height: 1.5;
+  }
+
+  .prototype {
+    padding-top: 5%;
+    width: 90%;
+    padding-bottom: 5%;
+  }
+
+  #img {
+    text-align: center;
+  }
+
+  #center {
+    padding-bottom: 5%;
+    padding-top: 8%;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+  }
+
+  #center ul {
+    padding: 0;
+    margin: 0;
+    width: 80%;
+    text-align: left;
+    position: relative;
+    display: inline-block;
+    list-style: none;
+  }
+  #details {
+    width: 100%;
+    line-height: 1.5;
+    padding-bottom: 2%;
+  }
+
+  .summary h2 {
+    width: 50%;
+    text-align: left;
+  }
+
+  #sketch1,
+  #sketch2 {
+    margin: 0;
+    padding-top: 4%;
+    width: 80%;
+    text-align: center;
+    display: inline-block;
+  }
+
+  .iconprototype {
+    width: 80%;
+    display: inline-block;
+    padding-bottom: 5%;
+  }
+
+  #video {
+    padding-top: 4%;
+    width: 100%;
+    height: 60%;
+  }
+}
+
+@media (min-width: 769px) {
+  .parallax1 {
+    z-index: -1;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
+
+  .adri {
+    padding-left: 3%;
+    left: 0;
+    text-align: left;
+    width: 100%;
+    float: left;
+    position: absolute;
+    padding-right: 3%;
+    letter-spacing: 1.2px;
+  }
+
+  #navbar {
+    position: fixed;
+    height: 10%;
+    width: 100%;
+    text-align: center;
+    background: white;
+  }
+
+  .wrap {
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav {
+    padding-top: 0;
+    padding-bottom: 0;
+    position: relative;
+    float: right;
+    padding-right: 2%;
+  }
+
+  #ulnav {
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1.2px;
+    vertical-align: middle;
+  }
+
+  .caption1 {
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    color: white;
+  }
+
+  .caption1 span.border {
+    background: #111;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 7px;
+  }
+
+  #footer ul {
+    list-style: none;
+    text-align: center;
+  }
+
+  #socialicons li {
+    display: inline-block;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  #video {
+    width: 100%;
+    height: 70%;
+  }
+
+  .summary {
+    display: inline-block;
+    text-align: center;
+    width: 80%;
+  }
+
+  #about {
+    width: 80%;
+    position: relative;
+    text-align: left;
+    display: inline-block;
+  }
+
+  #process {
+    display: inline-block;
+    width: 80%;
+    position: relative;
+    text-align: left;
+  }
+
+  .description h1 {
+    padding-top: 5%;
+    font-size: 3vw;
+    text-align: center;
+  }
+
+  .description {
+    line-height: 1.5;
+    display: inline-block;
+    text-align: left;
+  }
+
+  .descriptionbullets {
+    list-style: circle;
+    text-align: left;
+    display: inline-block;
+    width: 50%;
+    padding-bottom: 1%;
+    line-height: 1.5;
+  }
+
+  .prototype {
+    padding-top: 5%;
+    width: 100%;
+    padding-bottom: 5%;
+  }
+
+  #img {
+    text-align: center;
+  }
+
+  #center {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+  }
+
+  #center ul {
+    text-align: left;
+    position: relative;
+    display: inline-block;
+    list-style: none;
+  }
+
+  #details {
+    line-height: 1.5;
+    padding-bottom: 2%;
+  }
+
+  .summary h2 {
+    padding-top: 2%;
+    width: 50%;
+    text-align: left;
+  }
+
+  .iconprototype {
+    width: 100%;
+    display: inline-block;
+    padding-bottom: 5%;
+  }
+
+  text {
+    background: white;
+  }
+
+  #sketch1,
+  #sketch2 {
+    margin: 0;
+    padding-top: 4%;
+    width: 40%;
+    text-align: center;
+    float: left;
+    display: inline-block;
+  }
+}
