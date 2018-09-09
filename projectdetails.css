@@ -112,6 +112,37 @@ a:visited {
   text-align: center;
 }
 
+
+#navbar {
+  position: fixed;
+  height: 10%;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  background: white;
+  align-items: center;
+}
+
+#ulnav {
+  width: 100%;
+  margin-right: 10px;
+  letter-spacing: 1.2px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#ulnav .nav{
+  margin-right: 20px;
+  list-style: none;
+}
+
+.adri {
+  margin-left: 3%;
+  text-align: left;
+  width: 100%;
+  letter-spacing: 1.2px;
+}
+
 @media (max-width: 416px) {
   .parallax1 {
     z-index: -1;
@@ -121,43 +152,6 @@ a:visited {
     background-repeat: no-repeat;
     background-size: cover;
     height: 55%;
-  }
-
-  .adri {
-    font-size: 4.5vw;
-    display: inline-block;
-    padding-left: 3%;
-    left: 0;
-    text-align: left;
-    width: 100%;
-    position: absolute;
-    padding-right: 3%;
-    letter-spacing: 1.2px;
-  }
-
-  #navbar {
-    position: fixed;
-    width: 100%;
-    text-align: center;
-    background: white;
-  }
-
-  .nav {
-    font-size: 4.5vw;
-    padding: 0;
-    display: inline-block;
-    position: relative;
-    padding-right: 2%;
-  }
-
-  #ulnav {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    list-style: none;
-    letter-spacing: 1.2px;
-    vertical-align: middle;
   }
 
   #home {
@@ -317,42 +311,6 @@ a:visited {
     background-repeat: no-repeat;
     background-size: cover;
     height: 55%;
-  }
-
-  .adri {
-    padding-left: 3%;
-    left: 0;
-    text-align: left;
-    width: 100%;
-    float: left;
-    position: absolute;
-    padding-right: 2%;
-    letter-spacing: 1px;
-  }
-
-  #navbar {
-    position: fixed;
-    width: 100%;
-    text-align: center;
-    background: white;
-  }
-
-  .nav {
-    font-size: 2.7vw;
-    padding: 0;
-    display: inline-block;
-    position: relative;
-    padding-right: 2%;
-  }
-
-  #ulnav {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    list-style: none;
-    letter-spacing: 1.2px;
-    vertical-align: middle;
   }
 
   #home {
@@ -519,46 +477,9 @@ a:visited {
     height: 100%;
   }
 
-  .adri {
-    padding-left: 3%;
-    left: 0;
-    text-align: left;
-    width: 100%;
-    float: left;
-    position: absolute;
-    padding-right: 3%;
-    letter-spacing: 1.2px;
-  }
-
-  #navbar {
-    position: fixed;
-    height: 10%;
-    width: 100%;
-    text-align: center;
-    background: white;
-  }
-
   .wrap {
     width: 100%;
     text-align: center;
-  }
-
-  .nav {
-    padding-top: 0;
-    padding-bottom: 0;
-    position: relative;
-    float: right;
-    padding-right: 2%;
-  }
-
-  #ulnav {
-    list-style: none;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    letter-spacing: 1.2px;
-    vertical-align: middle;
   }
 
   .caption1 {
