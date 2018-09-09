@@ -47,6 +47,10 @@ a:visited {
   background: #ff3300;
 }
 
+.threesixtyfive .viewbutton a {
+  background: #013349;
+}
+
 #ulnav il:visited {
   color: black;
 }
@@ -95,6 +99,15 @@ a:visited {
   color: #4e5534;
 }
 
+.threesixtyfive .parallax1 {
+  background-image: url(./img/threesixtyfive.png);
+}
+
+.threesixtyfive .summary h2,
+.threesixtyfive .description h1 {
+  color: #013349;
+}
+
 .text {
   text-align: center;
 }
@@ -117,7 +130,6 @@ a:visited {
     left: 0;
     text-align: left;
     width: 100%;
-    float: left;
     position: absolute;
     padding-right: 3%;
     letter-spacing: 1.2px;
@@ -135,7 +147,6 @@ a:visited {
     padding: 0;
     display: inline-block;
     position: relative;
-    float: right;
     padding-right: 2%;
   }
 
@@ -331,7 +342,6 @@ a:visited {
     padding: 0;
     display: inline-block;
     position: relative;
-    float: right;
     padding-right: 2%;
   }
 
@@ -674,7 +684,6 @@ a:visited {
     padding-top: 4%;
     width: 40%;
     text-align: center;
-    float: left;
     display: inline-block;
   }
 }

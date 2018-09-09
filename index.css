@@ -107,11 +107,71 @@ a:hover {
 }
 
 #button3 {
-  background: gray;
+  background: #d64524;
 }
 
 #button4 {
   background: orange;
+}
+
+#button6 {
+  background: #013349;
+}
+
+.lunchbreak .parallax {
+  background-image: url(./img/DSC_6572.jpg);
+}
+
+.photowebsite .parallax {
+  background-image: url(./img/photoport.jpg);
+}
+
+.nighthawks .parallax {
+  background-image: url(./img/nighthawks.jpg);
+}
+
+.twittersentiment .parallax1 {
+  background-image: url(./img/sent.jpg);
+}
+
+.threesixtyfive .parallax {
+  background-image: url(./img/threesixtyfive.png);
+}
+
+.bluffs .parallax {
+  background-image: url(./img/photoscene3.png);
+}
+
+
+
+#navbar {
+  position: fixed;
+  height: 10%;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  background: white;
+  align-items: center;
+}
+
+#ulnav {
+  width: 100%;
+  margin-right: 10px;
+  letter-spacing: 1.2px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#ulnav .nav{
+  margin-right: 20px;
+  list-style: none;
+}
+
+.adri {
+  margin-left: 3%;
+  text-align: left;
+  width: 100%;
+  letter-spacing: 1.2px;
 }
 
 @media (max-width: 416px) {
@@ -132,10 +192,7 @@ a:hover {
     height: 55%;
   }
 
-  .parallax2,
-  .parallax3,
-  .parallax4,
-  .parallax5 {
+  .parallax {
     z-index: -1;
     position: relative;
     background-attachment: fixed;
@@ -145,43 +202,11 @@ a:hover {
     height: 45%;
   }
 
-  .adri {
-    font-size: 4.5vw;
-    display: inline-block;
-    padding-left: 3%;
-    left: 0;
-    text-align: left;
-    width: 100%;
-    float: left;
-    position: absolute;
-    padding-right: 3%;
-    letter-spacing: 1.2px;
-  }
-
   #navbar {
     position: fixed;
     width: 100%;
     text-align: center;
     background: white;
-  }
-
-  .nav {
-    font-size: 4.5vw;
-    padding: 0;
-    display: inline-block;
-    position: relative;
-    float: right;
-    padding-right: 2%;
-  }
-
-  #ulnav {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    list-style: none;
-    letter-spacing: 1.2px;
-    vertical-align: middle;
   }
 
   #home {
@@ -191,29 +216,6 @@ a:hover {
     width: 100%;
   }
 
-  .lunchbreak .parallax1 {
-    background-image: url(./img/DSC_6572.jpg);
-  }
-  .photowebsite .parallax2 {
-    background-image: url(./img/photoport.jpg);
-  }
-
-  #fleye .parallax3 {
-    background-image: url(./img/fleye.png);
-  }
-
-  #pixelplayer .parallax4 {
-    background-image: url(./img/nighthawks.jpg);
-  }
-
-  #coordinaid .parallax5 {
-    background-image: url(./img/sent.jpg);
-  }
-
-  .bluffs .parallax4 {
-    background-image: url(./img/photoscene3.png);
-  }
-
   .caption1 {
     position: absolute;
     top: 60%;
@@ -221,7 +223,6 @@ a:hover {
     width: 100%;
     text-align: center;
     color: white;
-    /*  background: rgba(0,0,0,.2)*/
   }
 
   .caption {
@@ -276,10 +277,7 @@ a:hover {
     height: 55%;
   }
 
-  .parallax2,
-  .parallax3,
-  .parallax4,
-  .parallax5 {
+  .parallax {
     z-index: -1;
     position: relative;
     background-attachment: fixed;
@@ -289,41 +287,11 @@ a:hover {
     height: 45%;
   }
 
-  .adri {
-    padding-left: 3%;
-    left: 0;
-    text-align: left;
-    width: 100%;
-    float: left;
-    position: absolute;
-    padding-right: 2%;
-    letter-spacing: 1px;
-  }
-
   #navbar {
     position: fixed;
     width: 100%;
     text-align: center;
     background: white;
-  }
-
-  .nav {
-    font-size: 2.7vw;
-    padding: 0;
-    display: inline-block;
-    position: relative;
-    float: right;
-    padding-right: 2%;
-  }
-
-  #ulnav {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    list-style: none;
-    letter-spacing: 1.2px;
-    vertical-align: middle;
   }
 
   #home {
@@ -333,26 +301,6 @@ a:hover {
     width: 100%;
   }
 
-  .lunchbreak .parallax1 {
-    background-image: url(./img/DSC_6572.jpg);
-  }
-
-  .photowebsite .parallax2 {
-    background-image: url(./img/photoport.jpg);
-  }
-
-  .pixelplayer .parallax4 {
-    background-image: url(./img/nighthawks.jpg);
-  }
-
-  .twittersentiment .parallax5 {
-    background-image: url(./img/sent.jpg);
-  }
-
-  .bluffs .parallax4 {
-    background-image: url(./img/photoscene3.png);
-  }
-
   .caption1 {
     position: absolute;
     top: 60%;
@@ -360,7 +308,6 @@ a:hover {
     width: 100%;
     text-align: center;
     color: white;
-    /*  background: rgba(0,0,0,.2)*/
   }
 
   .caption {
@@ -416,10 +363,7 @@ a:hover {
     height: 100%;
   }
 
-  .parallax2,
-  .parallax3,
-  .parallax4,
-  .parallax5 {
+  .parallax {
     z-index: -1;
     position: relative;
     background-attachment: fixed;
@@ -427,17 +371,6 @@ a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-  }
-
-  .adri {
-    padding-left: 3%;
-    left: 0;
-    text-align: left;
-    width: 100%;
-    float: left;
-    position: absolute;
-    padding-right: 3%;
-    letter-spacing: 1.2px;
   }
 
   #navbar {
@@ -448,33 +381,6 @@ a:hover {
     background: white;
   }
 
-  .nav {
-    padding-top: 0;
-    padding-bottom: 0;
-    position: relative;
-    float: right;
-    padding-right: 2%;
-  }
-
-  #ulnav {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    letter-spacing: 1.2px;
-    vertical-align: middle;
-  }
-  /*
-    
-    #ulnav li{
-    padding-right: 10%;
-    padding-left: 0%;
-    display: inline-block;
-    list-style: none;
-    }
-*/
-
   #home {
     background: transparent;
     display: inline-block;
@@ -482,23 +388,19 @@ a:hover {
     width: 100%;
   }
 
-  .lunchbreak .parallax1 {
+  .lunchbreak .parallax {
     background-image: url(./img/DSC_6572.jpg);
   }
 
-  .photowebsite .parallax2 {
+  .photowebsite .parallax {
     background-image: url(./img/photoport.jpg);
   }
 
-  .pixelplayer .parallax4 {
-    background-image: url(./img/nighthawks.jpg);
-  }
-
-  .twittersentiment .parallax5 {
+  .twittersentiment .parallax1 {
     background-image: url(./img/sent.jpg);
   }
 
-  .bluffs .parallax4 {
+  .bluffs .parallax {
     background-image: url(./img/photoscene3.png);
   }
 
@@ -509,7 +411,6 @@ a:hover {
     width: 100%;
     text-align: center;
     color: white;
-    /*  background: rgba(0,0,0,.2)*/
   }
 
   .caption {
